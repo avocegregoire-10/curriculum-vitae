@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid #111; */
+    background-color: #bbb;
+}
+
+.header{
+    /* text-align: center; */
+    font-size: 13px;
+    position: relative;
+}
+
+.header p{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header p span{
+    color: #009;
+}
+
+
+/*.image{
+    float: left;
+    border-radius: 50%;
+    margin: 0px 0px 0px 10px;
+}*/
+/*Ces propriétés appliquées à figure et figcaption permettent 
+de positionner la légende en haut ou en bas de l'image.
+Dans notre cas, la légende est positionnée en bas (bottom)*/
+figure{
+    min-width: 350px;
+    padding: 15px;
+    display: table;
+} 
+
+figcaption{
+    padding: 15px;
+    display: table-caption;
+    caption-side: bottom;
+}
+
+figure img{
+    border-radius: 50%;
+}
+
+.icon{
+    margin-left: 250px;
+}
+
+.icon h1{
+    margin-top: -150px;
+}
+
+.icon a{
+    text-decoration: none;
+    margin: 25px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    color: #fdd;
+}
+
+.icon a i{
+    color: green;
+    font-size: 25px;
+}
+
+.icon span{
+    margin: 30px;
+    font-size: 16px;
+}
+
+.icon span i[class$="fa-at"]{
+    margin-left: 200px;
+}
+
+.icon span i[class$="marker-alt"]{
+    margin-left: 200px;
+}
+
+.icon i[class^="fas"]{
+    color: #009;
+}
+
+.icon .mail{
+    color: rgb(33, 0, 153);
+}
+
+.content{
+    margin-top: 40px;
+}
+
+hr{
+    color: rgb(126, 10, 10);
+}
+
+.marge{
+    margin: 20px;
+    font-size: 15px;
+}
+
+.marge-bott{
+    margin-bottom: 6px;
+}
+
+.marge-left{
+    margin-left: 10px;
+}
+
+.marge-top{
+    margin-top: 5px;
+}
+
+.title{
+    font-size: 16px;
+    color: green;
+}
+
+.sub-title{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+em{
+    font-size: 25px;
+}
+
+.annee-format{
+    float: right;
+}
+
+.educ{
+    margin-bottom: 10px;
+}
+
+
