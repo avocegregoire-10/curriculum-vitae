@@ -184,6 +184,10 @@ em{
        left: -200px;
        margin-top: 60px;
     }
+
+    .profil p{
+        text-align: justify;
+    }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1600px){
